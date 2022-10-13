@@ -3,5 +3,34 @@
   "version": "0.1.0",
   "engines": {
     "node": ">=16.x"
+  },
+  "description": "## Índice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeriaAlcala/LIM018-md-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValeriaAlcala/LIM018-md-links/issues"
+  },
+  "homepage": "https://github.com/ValeriaAlcala/LIM018-md-links#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "jest": "^29.1.2"
+  },
+  "bin": {
+    "mdLinks": "cli.js"
+  },
+  "dependencies": {
+    "axios": "^1.1.2"
   }
 }
